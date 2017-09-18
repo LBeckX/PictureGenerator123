@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PictureGenerator123 - picgenerator.webitfactory.com</title>
-    <meta name="description" content="Create your own simply pictures in html5">
+    <title>PictureMinimizer123 - picgenerator.webitfactory.com</title>
+    <meta name="description" content="Create your own simply pictures in html5 with the PictureMinimizer123 - Checkout my other generators">
     <meta charset="utf-8">
     <meta name="author" content="Lukas Beck <lb(at)webitfactory.com>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
     <meta name="robots" content="index,follow" />
     <meta name="language" content="en">
     <meta name="keywords" content="picture,creator,html5,html,javascript">
-    <meta property="og:title" content="PictureGenerator123 - picgenerator.webitfactory.com" />
+    <meta property="og:title" content="PictureMinimizer123 - picgenerator.webitfactory.com" />
     <meta property="og:url" content="http://bouncegenerator.webitfactory.com" />
     <meta property="og:image" content="/files/img/pro_bounceGen.jpg" />
     <meta property="og:description" content="Create your own simply pictures in html5" />
@@ -27,7 +27,7 @@
 </head>
 <body>
 <div id="LEFT" class="infoBoxClose">
-    <div id="HEADER"><h1>PictureGenerator123</h1></div>
+    <div id="HEADER"><h1>PictureMinimizer123</h1></div>
     <canvas id="MAIN_CANVAS" style="background-color: #fff;"></canvas>
 </div>
 
@@ -49,8 +49,9 @@
             <label for="INPUT_JPG_QUALITY">JPG quality (1 to 100)</label>
             <input type="number" name="INPUT_JPG_QUALITY" id="INPUT_JPG_QUALITY" value="100" placeholder="100" minlength="1" maxlength="3">
         </div>
-
-
+        <div class="form_input">
+            <a class="button" download="newImage.jpg" id="DOWNLOAD_LINK">Download</a>
+        </div>
     </form>
 </div>
 <div id="OUTPUT_MSG"></div>
