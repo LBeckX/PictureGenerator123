@@ -43,6 +43,7 @@ canvas{
 #LEFT{
     width: 75%;
     background-color: rgba(33,33,33,.95);
+    overflow: hidden;
 }
 #RIGHT{
     width: 25%;
@@ -85,14 +86,15 @@ input,select{
     background-color: rgba(255,255,255,.95);
     border:0;
 }
+
+input[type="file"]{
+    padding: 7px;
+    font-size: 18px;
+}
+
 input:active,input:focus,input:hover,select:active,select:focus,select:hover{
     background-color: rgba(255,255,255,1);
 }
-
-
-
-
-
 
 #OUTPUT_MSG{
     position: fixed;
@@ -119,7 +121,7 @@ input:active,input:focus,input:hover,select:active,select:focus,select:hover{
     opacity: 1;
 }
 
-button{
+button,.button{
     min-width: 200px;
     padding: 5px 15px;
     font-size: 20px;
@@ -131,6 +133,7 @@ button{
     display: inline-block;
     text-transform:uppercase;
     transition: all .1s;
+    text-align: center;
 }
 button:hover{
     background-color: rgba(255,255,255,.05);
